@@ -1,0 +1,145 @@
+html {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 69px;
+  width: 1300px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  margin-top: 5px;
+}
+
+.box1 {
+  margin-left: 10px;
+  height: 50px;
+  vertical-align: middle;
+  }
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.box2 {
+  height: 50px;
+  width: 500px;
+  margin-right: 10px;
+  text-align: right;
+  
+  display: flex;
+  align-items: center;  
+  justify-content: flex-end;
+}
+
+.box2 li {
+  
+  text-decoration: underline;
+  display: inline-block;
+    
+}
+
+.box2 li a {
+  margin: 10px;
+  
+}
+
+.container2 {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1rcr4sz*_ga*NDgzOTg0Njk3LjE2NTQzNTkxMzI.*_ga_3LRZM6TM9L*MTY1NjkzNzEzNS4yMi4xLjE2NTY5MzcxMzkuNTY.");
+  width: 1200px;
+  height: 700px;
+  margin-left: 50px;
+     
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  vertical-align: middle;
+  
+}
+
+.incontainer2 {
+  background-color: black;
+  width: 1200px;
+  height: 140px;
+}
+
+.container3 {
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.col img {
+  width: 300px;
+  height: 200px;
+  
+}
+
+.col h4 {
+  margin-top: 10px;
+}
+
+.col {
+  width: 1030px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.box3 {
+  margin: 0 15px;
+}
+  
+
+.container4 {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*39ruhx*_ga*NDgzOTg0Njk3LjE2NTQzNTkxMzI.*_ga_3LRZM6TM9L*MTY1NzAxNjAxOC4yOC4xLjE2NTcwMTcxMzEuNjA.");
+  width: 1200px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;   
+  
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+
+.box4 {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  opacity: 1;
+  margin: 20px;
+  margin-top: 0;
+}
+
+#locations {
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+.container5 {
+  text-align: center;
+  
+  height: 200px;
+  width: 1300px;
+}
+
+
+.footer {
+  margin-left: 20px;
+  text-align: left;
+}
